@@ -19,7 +19,7 @@ permissions:
   id-token: write
 
 env:
-  VK_TOKEN: ${{ vars.VK_TOKEN }}
+  VK_TOKEN: ${{ secrets.VK_TOKEN }}
   VK_GROUP_ID: ${{ vars.VK_GROUP_ID }}
 
 jobs:
