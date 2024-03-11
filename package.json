@@ -1,0 +1,14 @@
+{
+  "name": "vk-backup",
+  "version": "1.0.0",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-vk-sdk": "^1.1.7",
+    "prettier": "^3.2.5"
+  }
+}
