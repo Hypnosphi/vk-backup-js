@@ -27,9 +27,9 @@ while (offset < count) {
   offset += PAGE_SIZE;
 }
 
-await writeFile("posts.json", JSON.stringify(posts, null, 2));
+await writeFile("public/posts.json", JSON.stringify(posts, null, 2));
 
-// const posts = JSON.parse(await readFile("posts.json"));
+// const posts = JSON.parse(await readFile("public/posts.json"));
 
 const renderImage = (sizes, alt) => {
   if (sizes == null) {
